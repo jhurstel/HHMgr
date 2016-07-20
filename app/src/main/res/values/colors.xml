@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CDDC39</color>
+    <color name="colorPrimaryDark">#AFB42B</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <color name="colorGeneralStart">#F0F4C3</color>
+    <color name="colorGeneralEnd">#E6EE9C</color>
+    <color name="colorPreflopStart">#E6EE9C</color>
+    <color name="colorPreflopEnd">#D4E157</color>
+    <color name="colorFlopStart">#D4E157</color>
+    <color name="colorFlopEnd">#C0CA33</color>
+    <color name="colorTurnStart">#C0CA33</color>
+    <color name="colorTurnEnd">#AFB42B</color>
+    <color name="colorRiverStart">#AFB42B</color>
+    <color name="colorRiverEnd">#9E9D24</color>
+    <color name="colorShowdownStart">#9E9D24</color>
+    <color name="colorShowdownEnd">#827717</color>
+
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/LinearLayoutAction"
+    android:layout_margin="2dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:text="PreFlop action"
+        android:id="@+id/textViewActionLabel"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:minHeight="48dp"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_margin="4dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAction"
+        android:minHeight="48dp"
+        android:layout_margin="4dp"
+        android:textSize="@dimen/abc_text_size_small_material" />
+
+    <ViewStub
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewStubActionSelection"
+        android:layout="@layout/action_item" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/RadioGroupActionItem"
+    android:minHeight="48dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/textViewSeat"
+        android:layout_weight="1.02"
+        android:textStyle="bold"
+        android:text="Seat ?"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/buttonFold"
+        android:layout_weight="1"
+        android:layout_margin="2dp"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text="Fold" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Call"
+        android:id="@+id/buttonCall"
+        android:layout_weight="1"
+        android:layout_margin="2dp"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:textAllCaps="false"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Raise"
+        android:id="@+id/buttonRaise"
+        android:layout_weight="1"
+        android:layout_margin="2dp"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:textAllCaps="false"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextRaise"
+        android:layout_weight="1"
+        android:imeOptions="actionDone"
+        android:hint="to"
+        android:clickable="false"
+        android:layout_margin="2dp"
+        android:layout_gravity="center" />
+</LinearLayout>
